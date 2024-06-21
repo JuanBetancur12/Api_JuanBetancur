@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
+=======
+    "dev": "nodemon src/index.js"
+>>>>>>> ccffbd091833a30c81485707b19e481e7383c85c
   },
   "type": "module",
   "keywords": [],
