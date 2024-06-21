@@ -16,11 +16,7 @@ app.get('/', (req, res) => {
 })
 
 //Connection
-<<<<<<< HEAD
 mongoose.connect("mongodb+srv://juanes:123@cluster0.aqibkku.mongodb.net/Horarios?retryWrites=true&w=majority&appName=Cluster0")
-=======
-mongoose.connect("mongodb+srv://Juanes:123@cluster0.aqibkku.mongodb.net/?retryWrites=true&w=majority&appName=Yamix_horarios")
->>>>>>> ccffbd091833a30c81485707b19e481e7383c85c
     .then(() => console.log("Connected to mongoDB Atlas"))
     .catch((error) => console.log(error))
 
